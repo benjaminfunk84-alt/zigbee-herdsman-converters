@@ -31,7 +31,7 @@ export const definitions: DefinitionWithExtend[] = [
         vendor: "AVATTO",
         description: "Thermostatic radiator valve",
         extend: [tuya.modernExtend.tuyaBase({dp: true, timeStart: "2000"})],
-        whiteLabel: [tuya.whitelabel("Girier", "ME168_Girier", "Thermostatic radiator valve", ["_TZE200_cxakecfo", "_TZE200_4aijvczq"])],
+        whiteLabel: [tuya.whitelabel("Avatto", "TRV20", "Thermostatic radiator valve", ["_TZE200_cxakecfo", "_TZE200_4aijvczq"])],
         ota: true,
         exposes: [
             e.battery(),
